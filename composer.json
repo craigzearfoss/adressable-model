@@ -1,6 +1,6 @@
 {
-    "name": "craigzearfoss/addressable-trait",
-    "description": "Trait to add addressable functionality to a Laravel 5.1 elopquent model.",
+    "name": "craigzearfoss/addressable-model",
+    "description": "Trait to add addressable functionality to a Laravel 5.1 eloquent model.",
     "keywords": [
         "php",
         "craigzearfoss",
