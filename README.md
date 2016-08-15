@@ -79,9 +79,13 @@ Formatting Methods:
 
 Geocoder Methods
 
-* `fetchGeocode`
-* `fetchCoordinates` - returns an array with the latitude and longitude
+* `fetchGeocode` - returns the geocode array  for the current record
+* `fetchCoordinates` - returns an array with the latitude and longitude for the current record
 * `updateGeocode` - updates the `lat` and `lng` fields for the current model 
+* `lookupGeocode` - makes a call to Google maps for the specified address and return the geocode array
+* `loopupCoordinates` - makes a call to Google maps for the specified address and returns an array with the latitude and longitude
+* `distance` - calculates the distance between the current record and the specified latitude and longitude
+* `scopeDistance` - adds a location coordinate and distance to a query
 
 Changelog
 ---------
